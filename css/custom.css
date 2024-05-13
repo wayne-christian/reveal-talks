@@ -1,0 +1,127 @@
+@charset "UTF-8";
+/* CSS Document */
+html.jobs .slide-background, html.salary .slide-background, html.start .slide-background {
+	opacity: 0.7 !important;
+}
+.reveal h3,.reveal h4{
+	font-size: 80%;
+	
+}
+.reveal p{
+	font-size: 60%;
+	
+}
+.reveal p.tight {
+
+    line-height: 1em;
+
+}
+	.reveal p.third{
+		float: left;
+		width: 33%;
+		font-size: 60%;
+		text-align: left;
+		padding: 10px;
+		box-sizing: border-box;
+	}
+.reveal div.half{
+		float: left;
+		width: 50%;
+		font-size: 60%;
+		text-align: left;
+		padding: 10px;
+		box-sizing: border-box;
+	}
+.reveal p.small, .reveal span.small {
+	font-size: 60%;
+}
+.reveal p.tiny {
+	font-size: 40%;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 5px;
+}
+ul.dark {
+	list-style: none;
+}
+ul.dark li {
+	list-style: none;
+	height: auto;
+	line-height: normal;
+	margin-top: .1em!important;
+	margin-bottom: .1em!important;
+}
+.dark-back {
+	list-style: none;
+	background-color: #111;
+	padding: .1em!important;
+	color: white;
+}
+.yellow-back {
+list-style: none;
+    background-color: hsl(45 100% 70%);
+    padding: 0.1em!important;
+    color: black;
+	line-height: normal;
+}
+p .dark-back {
+	line-height: 1.5em!important;
+	color: white;
+}
+
+div.line {
+	width: 50%;
+	border-right: #fff 1px solid;
+	height: 10px;
+	box-sizing: border-box;
+}
+.grey {
+	background-color: #d5d6d8!important;
+}
+.white {
+	background-color: #fff!important;
+}
+
+.reveal p.bullet, .reveal p span.bullet {
+	list-style: disc inside none;
+	display: list-item;
+	color: white;
+	list-style-position: inside;
+}
+.ismoblandscape{
+	display:none;
+}
+
+.reveal .slide-number {
+ 
+    right: 50%;
+    transform: translateX(50%);
+}
+
+.reveal video{
+	height: 50vh;
+	width: auto;
+	display: inline-block;
+
+}
+.reveal video.land{
+	height: auto;
+	width: 30vw;
+	display: inline-block;
+
+}
+.reveal img.inline{
+	display: inline-block;
+	width: 20vw;
+	vertical-align: top;
+}
+
+@media screen and (orientation:portrait)
+and (min-device-width: 319px) 
+and (max-device-width: 480px) {
+   /* Your CSS Here*/
+	.ismoblandscape{
+	display:block;
+}
+}
+
